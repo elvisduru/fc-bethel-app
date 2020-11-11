@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://fc-bethel-api.herokuapp.com";
 
 ReactDOM.render(
   <Router>
