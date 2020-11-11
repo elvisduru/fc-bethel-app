@@ -7,6 +7,8 @@ import { Partners } from "./Scenes/Partners/Partners";
 import { Players } from "./Scenes/Players/Players";
 import Gallery from "./Scenes/Gallery/Gallery";
 import placeholderImg from "./images/logo-placeholder.jpg";
+import austin from "./images/austin.jpg";
+import udoh from "./images/udoh.jpg";
 import Contact from "./Scenes/Contact/Contact";
 import { News } from "./Scenes/News/News";
 import Admin from "./Scenes/Admin/Admin";
@@ -20,39 +22,6 @@ class App extends Component {
     this.state = {
       players: {
         staff: [
-          {
-            name: "Udoh Andy Benedict",
-            position: null,
-            image: placeholderImg,
-            bio: (
-              <div>
-                <p>
-                  Udoh, a native of Nsit Ubium in Akwa Ibom State, Nigeria. A
-                  graduate of the National Institute for Sports (Advance
-                  Certificate in Coaching, Football) who has 9 years’ experience
-                  as a player in grassroots football, he started his career with
-                  Lucky Babes football club in 2001 to 2003; then moved to FC
-                  Bethel International where I played from 2003 to 2008, before
-                  joining Dowa FC Benin Republic from 2009 to 2010.
-                </p>
-                <p>
-                  Started his Coaching Career with Yaba Queens FC Lagos in 2010
-                  winning so many Laurels for the Club with Six years of stay.
-                  Some of the honors include but not limited to: Edwin Collins
-                  Women Football Championship winner, Oduduwa Cup Women
-                  Championship in Ibadan and the best coach of the championship,
-                  2nd Eko Football Championship, 2nd Lagos State Female Football
-                  Challenge Cup, Winner Lagos State Female Football Challenge
-                  Cup, Winner Amateur Female Football League etc to mention a
-                  few.
-                </p>
-                <p>
-                  Currently with FC Bethel International was the winner Redeemed
-                  Football Challenge Cup and winner DOXA Sports Championship.
-                </p>
-              </div>
-            ),
-          },
           {
             name: "Olagunju Nathaniel Ikhide",
             position: "Head Coach",
@@ -122,6 +91,73 @@ class App extends Component {
                   As a player, he formally played for Nigerian Ports Authority
                   Nigeria 1994-1997, JCB FC - (Burkina Faso1998-2001) Stella
                   Club (CoteD'ivoire 1997).
+                </p>
+              </div>
+            ),
+          },
+          {
+            name: "Udoh Andy Benedict",
+            position: null,
+            image: udoh,
+            bio: (
+              <div>
+                <p>
+                  Udoh, a native of Nsit Ubium in Akwa Ibom State, Nigeria. A
+                  graduate of the National Institute for Sports (Advance
+                  Certificate in Coaching, Football) who has 9 years’ experience
+                  as a player in grassroots football, he started his career with
+                  Lucky Babes football club in 2001 to 2003; then moved to FC
+                  Bethel International where I played from 2003 to 2008, before
+                  joining Dowa FC Benin Republic from 2009 to 2010.
+                </p>
+                <p>
+                  Started his Coaching Career with Yaba Queens FC Lagos in 2010
+                  winning so many Laurels for the Club with Six years of stay.
+                  Some of the honors include but not limited to: Edwin Collins
+                  Women Football Championship winner, Oduduwa Cup Women
+                  Championship in Ibadan and the best coach of the championship,
+                  2nd Eko Football Championship, 2nd Lagos State Female Football
+                  Challenge Cup, Winner Lagos State Female Football Challenge
+                  Cup, Winner Amateur Female Football League etc to mention a
+                  few.
+                </p>
+                <p>
+                  Currently with FC Bethel International was the winner Redeemed
+                  Football Challenge Cup and winner DOXA Sports Championship.
+                </p>
+              </div>
+            ),
+          },
+          {
+            name: "Ogee Austin",
+            position: null,
+            image: austin,
+            bio: (
+              <div>
+                <p>
+                  Austin currently works as the Business Manager for FC Bethel
+                  Academy, under his purview he manages, day to day operations
+                  of the academy and is also responsible for the rebranding,
+                  digital transformation amongst other things. He brings in over
+                  9 years of work experience across several e-businesses he has
+                  worked with in core managerial positions. He was responsible
+                  for Strategy, Operations, business development at some point
+                  as well as Sales/Marketing for Oya.com.ng before being
+                  elevated by the Executive Management of Wakanow to lead the
+                  firm (OYA) as the Acting Chief Operations Officer where he
+                  worked for 3 years, 11months.
+                </p>
+                <p>
+                  Austin has also gained experience in marketing and promotions
+                  with a focus on working on Business Development and Strategic
+                  projects having worked different ecommerce firms from
+                  Vconnect.com to Rocket Internet where he managed revenue
+                  operations for over 6 Ventures (Kaymu, Jovago (now Jumia
+                  Travel), Hello food (now Jumia Food), Lamudi (now Jumia House)
+                  etc. He holds a BSc degree in Accounting from the prestigious
+                  University of Nigeria, Nsukka (UNN), as well as a professional
+                  certification in Strategic Marketing with o2Academy in Lagos,
+                  amongst other programs.
                 </p>
               </div>
             ),
