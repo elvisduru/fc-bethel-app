@@ -5,7 +5,7 @@ import { Fade, Zoom } from "react-reveal";
 
 import ballImg from "../../images/ball.jpg";
 
-import arrowRight from "../../images/arrow-right.svg";
+// import arrowRight from "../../images/arrow-right.svg";
 
 export const About = () => {
   return (
