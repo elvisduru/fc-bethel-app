@@ -54,25 +54,25 @@ class Menu extends Component {
             <p onClick={this.handleOpenMenu}>&times;</p>
             <ul onClick={this.handleOpenMenu}>
               <li>
-                <a href="/">home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="/#about">about us</a>
+                <a href="/#about">About us</a>
               </li>
               <li>
-                <a href="/#partners">partners</a>
+                <a href="/#partners">Partners</a>
               </li>
               <li>
-                <a href="/#news">news</a>
+                <a href="/#news">News</a>
               </li>
               <li>
-                <a href="/#players">our players</a>
+                <a href="/#players">Our players</a>
               </li>
               <li>
-                <Link to="/gallery">gallery</Link>
+                <Link to="/gallery">Gallery</Link>
               </li>
               <li>
-                <Link to="/contact">contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
             <div className={styles.social}>
@@ -133,25 +133,25 @@ class Menu extends Component {
           <>
             <ul className={styles.nav}>
               <li>
-                <a href="/">home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="/#about">about us</a>
+                <a href="/#about">About us</a>
               </li>
               <li>
-                <a href="/#partners">partners</a>
+                <a href="/#partners">Partners</a>
               </li>
               <li>
-                <a href="/#news">news</a>
+                <a href="/#news">News</a>
               </li>
               <li>
-                <a href="/#players">our players</a>
+                <a href="/#players">Our players</a>
               </li>
               <li>
-                <NavLink to="/gallery">gallery</NavLink>
+                <NavLink to="/gallery">Gallery</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">contact</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
             <div className={styles.social}>

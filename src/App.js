@@ -6,37 +6,7 @@ import { About } from "./Scenes/About/About";
 import { Partners } from "./Scenes/Partners/Partners";
 import { Players } from "./Scenes/Players/Players";
 import Gallery from "./Scenes/Gallery/Gallery";
-
-import udoh from "./images/players/udoh.jpg";
-import seyi from "./images/players/seyi.jpg";
-import ikhide from "./images/players/ikhide.jpg";
-
-// import jimoh from "uploads/gallery/1605004971184jimoh2.jpeg";
-import daniel from "./images/players/daniel.jpg";
-import obinna from "./images/players/obinna.jpg";
-import sodiq from "./images/players/sodiq.jpg";
-import prince from "./images/players/prince.jpg";
-import abel from "./images/players/abel.jpg";
-import ibrahim from "./images/players/ibrahim.jpg";
-import yusuf from "./images/players/yusuf.png";
-
-import camara from "./images/players/camara.png";
-import samara from "./images/players/samara.png";
-import adeolu from "./images/players/adeolu.png";
-import akpam from "./images/players/apkam.jpg";
-import bless from "./images/players/bless.jpg";
-import kehinde from "./images/players/kehinde.jpg";
-import obiri from "./images/players/obiri.jpg";
-
-import maclyn from "./images/players/maclyn.jpg";
-import john from "./images/players/john.jpg";
-import william from "./images/players/william.jpg";
-import alaba from "./images/players/alaba.jpg";
-import samuel from "./images/players/samuel.jpg";
-import okechukwu from "./images/players/okechukwu.jpg";
-import ebube from "./images/players/ebube.jpg";
-import muhammed from "./images/players/muhammed.jpg";
-import collins from "./images/players/collins.jpg";
+import placeholderImg from "./images/logo-placeholder.jpg";
 import Contact from "./Scenes/Contact/Contact";
 import { News } from "./Scenes/News/News";
 import Admin from "./Scenes/Admin/Admin";
@@ -53,7 +23,7 @@ class App extends Component {
           {
             name: "Udoh Andy Benedict",
             position: null,
-            image: udoh,
+            image: placeholderImg,
             bio: (
               <div>
                 <p>
@@ -86,7 +56,8 @@ class App extends Component {
           {
             name: "Olagunju Nathaniel Ikhide",
             position: "Head Coach",
-            image: "uploads/gallery/1605004971242olagunju.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971242olagunju.jpg",
             bio: (
               <div>
                 <p>
@@ -129,7 +100,8 @@ class App extends Component {
           },
           {
             name: "Seyi Jones",
-            image: "uploads/gallery/1605004971255seyi.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971255seyi.jpg",
             position: "Team Manager",
             bio: (
               <div>
@@ -158,7 +130,8 @@ class App extends Component {
         goalkeepers: [
           {
             name: "Jimoh Godwin",
-            image: "uploads/gallery/1605004971184jimoh2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971184jimoh2.jpg",
             number: 21,
             dob: "17.11.2003",
             age: 16,
@@ -183,7 +156,8 @@ class App extends Component {
           },
           {
             name: "Daniel Emmanuel",
-            image: "uploads/gallery/1605004970925daniel2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004970925daniel2.jpg",
             number: 1,
             dob: "17.05.2001",
             age: 18,
@@ -208,7 +182,8 @@ class App extends Component {
         defenders: [
           {
             name: "Obinna Franklin Agha",
-            image: "uploads/gallery/1605004971221obinna2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971221obinna2.jpg",
             number: 7,
             dob: "04.12.2003",
             age: 16,
@@ -232,7 +207,8 @@ class App extends Component {
           },
           {
             name: "Sodiq Adeyemi Ademola",
-            image: "uploads/gallery/1605004971261sodiq2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971261sodiq2.jpg",
             number: 2,
             dob: "15.02.2002",
             age: 17,
@@ -256,7 +232,7 @@ class App extends Component {
           },
           {
             name: "Prince Okereafor",
-            image: prince,
+            image: placeholderImg,
             number: 1,
             dob: "13.01.2003",
             age: 16,
@@ -280,7 +256,7 @@ class App extends Component {
           },
           {
             name: "Abel Anang Johnson",
-            image: abel,
+            image: placeholderImg,
             number: 1,
             dob: "15.04.2001",
             age: "18",
@@ -305,7 +281,7 @@ class App extends Component {
           },
           {
             name: "Ibrahim Bature",
-            image: ibrahim,
+            image: placeholderImg,
             number: 1,
             dob: "04.04.2002",
             age: 17,
@@ -329,7 +305,7 @@ class App extends Component {
           },
           {
             name: "Hammed Yusuf",
-            image: yusuf,
+            image: placeholderImg,
             number: 1,
             dob: "10.10.2002",
             age: 17,
@@ -356,7 +332,7 @@ class App extends Component {
         midfielders: [
           {
             name: "Hammed Samara",
-            image: samara,
+            image: placeholderImg,
             number: 1,
             dob: "19.12.2001",
             age: "17",
@@ -381,7 +357,7 @@ class App extends Component {
           },
           {
             name: "Samuel Adeolu",
-            image: adeolu,
+            image: placeholderImg,
             number: 1,
             dob: "04.02.2001",
             age: "19",
@@ -406,7 +382,7 @@ class App extends Component {
           },
           {
             name: "Akpam Abraham",
-            image: akpam,
+            image: placeholderImg,
             number: 1,
             dob: "08.01.2002",
             age: "17",
@@ -429,7 +405,8 @@ class App extends Component {
           },
           {
             name: "Bless Udom Aniekan",
-            image: "uploads/gallery/1605005268435bless2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605005268435bless2.jpg",
             number: 5,
             dob: "14.02.2003",
             age: 16,
@@ -453,7 +430,8 @@ class App extends Component {
           },
           {
             name: "Camara Billor",
-            image: "uploads/gallery/1605004970921camara2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004970921camara2.jpg",
             number: 13,
             dob: "04.05.2003",
             age: 16,
@@ -480,7 +458,8 @@ class App extends Component {
           },
           {
             name: "Kehinde Noah Ayannubi",
-            image: "uploads/gallery/1605004971197kehinde2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971197kehinde2.jpg",
             number: 10,
             dob: "14.02.2003",
             age: 16,
@@ -504,7 +483,8 @@ class App extends Component {
           },
           {
             name: "Obiri Ugochukwu Chikora",
-            image: "uploads/gallery/1605004971226obiri2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971226obiri2.jpg",
             number: 4,
             dob: "19.09.2001",
             age: 18,
@@ -528,7 +508,7 @@ class App extends Component {
           },
           {
             name: "Collins Gyamfi",
-            image: collins,
+            image: placeholderImg,
             number: 1,
             dob: "15.07.2002",
             age: 17,
@@ -554,7 +534,8 @@ class App extends Component {
         forwards: [
           {
             name: "Maclyn Biokpo Jenewari",
-            image: "uploads/gallery/1605004971203maclyn2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971203maclyn2.jpg",
             number: 17,
             dob: "25.01.2000",
             age: 19,
@@ -578,7 +559,8 @@ class App extends Component {
           },
           {
             name: "John Bassey",
-            image: "uploads/gallery/1605004971191john2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971191john2.jpg",
             number: 20,
             dob: "04.06.2002",
             age: 17,
@@ -601,7 +583,7 @@ class App extends Component {
           },
           {
             name: "William Ayo",
-            image: william,
+            image: placeholderImg,
             number: 1,
             dob: "03.03.2001",
             age: 16,
@@ -625,7 +607,7 @@ class App extends Component {
           },
           {
             name: "Alaba Olawale",
-            image: alaba,
+            image: placeholderImg,
             number: 1,
             dob: "12.08.1997",
             age: 22,
@@ -649,7 +631,8 @@ class App extends Component {
           },
           {
             name: "Samuel Anietie",
-            image: "uploads/gallery/1605004971251samuel2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971251samuel2.jpg",
             number: 19,
             dob: "08.04.2001",
             age: 18,
@@ -673,7 +656,8 @@ class App extends Component {
           },
           {
             name: "Okechukwu Nwanna",
-            image: "uploads/gallery/1605004971251samuel2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971251samuel2.jpg",
             number: 1,
             dob: "01.10.2000",
             age: 9,
@@ -698,7 +682,7 @@ class App extends Component {
           },
           {
             name: "Ebube Joachin",
-            image: ebube,
+            image: placeholderImg,
             number: 1,
             dob: "30.10.2000",
             age: 19,
@@ -722,7 +706,8 @@ class App extends Component {
           },
           {
             name: "Muhammed Ibrahim Inuwa",
-            image: "uploads/gallery/1605005268608muhammed2.jpg",
+            image:
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605005268608muhammed2.jpg",
             number: 1,
             dob: "01.12.2003",
             age: "16",
