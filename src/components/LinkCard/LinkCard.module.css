@@ -1,0 +1,43 @@
+.LinkCard {
+  position: relative;
+  max-width: 120px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 -1px 0px rgba(0, 0, 0, 0.02);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.LinkCard > a:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.LinkCard > a {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.top img {
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bottom {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 16px;
+}

@@ -1,0 +1,202 @@
+.Menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 100px;
+  z-index: 100;
+  height: 120px;
+  transition: all 0.1s ease-in;
+}
+
+.background {
+  backdrop-filter: blur(5px) contrast(0.2);
+  height: 80px;
+}
+
+.Menu.background > a img {
+  width: 50px;
+}
+
+.Menu.background > a > p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Menu > a {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Menu > a img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.Menu > ul {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav li {
+  margin: 0 20px;
+  font-size: 14px;
+}
+
+.nav li a:hover {
+  color: #eba1a2;
+  border-bottom: 2px solid #eba1a2;
+  padding-bottom: 5px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Menu > a > img {
+    width: 50px;
+  }
+  .Menu > a {
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 10px;
+  }
+  .Menu {
+    padding: 0 30px;
+  }
+
+  .nav li {
+    margin: 0 15px;
+    font-size: 13px;
+  }
+  .social img {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Menu > a > img {
+    width: 50px;
+  }
+
+  .Menu > a {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .Menu {
+    top: 0;
+    padding: 0 10px;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+  }
+
+  .hamburger span {
+    width: 28px;
+    height: 2px;
+    margin: 3px 0;
+    background-color: white;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+  }
+
+  .hamburger span {
+    width: 28px;
+    height: 2px;
+    margin: 3px 0;
+    background-color: white;
+  }
+
+  .MobileMenu {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .content {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .social {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .content ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .content ul li {
+    font-size: 14px;
+    margin: 15px 0;
+    color: white;
+  }
+
+  .content > p {
+    position: absolute;
+    right: 0;
+    margin: 15px;
+    font-size: 30px;
+    color: white;
+  }
+}

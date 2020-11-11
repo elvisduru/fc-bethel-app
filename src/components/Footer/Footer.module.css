@@ -1,0 +1,147 @@
+.Footer {
+  padding: 40px 100px;
+  background-color: #e1f5fe;
+  color: black;
+  margin-top: 60px;
+}
+
+.Footer nav,
+.Footer nav > ul {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.Footer nav li {
+  margin: 0 15px;
+}
+
+.Footer nav {
+  justify-content: space-between;
+}
+
+.Footer nav > a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.Footer nav > a img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.Footer > div {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer > div > p {
+  font-size: 12px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe img {
+  width: 12px;
+  position: absolute;
+  right: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.left h4 {
+  font-weight: 700;
+}
+
+.left p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.left {
+  margin-right: 40px;
+}
+
+.right {
+  position: relative;
+}
+
+.right input {
+  width: 230px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+  outline: none;
+}
+
+.right input::placeholder {
+  color: black;
+}
+
+@media (min-width: 760px) and (max-width: 800px) {
+  .Footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .Footer {
+    padding: 20px;
+  }
+
+  .Footer nav > a {
+    margin: 10px 0;
+  }
+
+  .Footer nav,
+  .Footer nav > ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Footer nav {
+    margin-bottom: 20px;
+  }
+
+  .Footer nav > ul {
+    margin-top: 20px;
+  }
+
+  .Footer nav > ul * {
+    margin-top: 10px;
+  }
+
+  .Footer > div {
+    flex-direction: column;
+    margin-top: 35px;
+    align-items: flex-start;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .left {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .right input {
+    width: 100%;
+    height: unset;
+    padding: 10px;
+    outline: none;
+  }
+}

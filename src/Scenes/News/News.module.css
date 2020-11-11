@@ -1,0 +1,41 @@
+.News {
+  padding: 100px;
+  background-image: url(../../images/background.png);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.News h2 {
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+}
+
+.News > p {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.67);
+}
+
+.News > main {
+  overflow-y: scroll;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .News {
+    padding: 60px 40px;
+  }
+
+  .News > main {
+    flex-direction: column;
+  }
+}

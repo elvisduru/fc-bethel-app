@@ -1,0 +1,35 @@
+.Testimonial {
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex: 1 0 100%;
+  font-style: italic;
+  padding: 20px 20% 20px 0px;
+  line-height: 35px;
+  flex-direction: column;
+}
+
+.Testimonial p span {
+  font-size: 50px;
+  font-weight: 900;
+  margin-right: 15px;
+  font-style: normal;
+}
+
+.Testimonial > span {
+  font-size: 16px;
+  margin-top: 20px;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .Testimonial {
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 10px;
+  }
+
+  .Testimonial p span {
+    font-size: 40px;
+  }
+}

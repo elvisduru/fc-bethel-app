@@ -1,0 +1,24 @@
+.Home h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.Home section {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  width: 800px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.Home section > div {
+  display: flex;
+  margin-top: 20px;
+}

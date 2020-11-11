@@ -1,0 +1,23 @@
+.PlayerList {
+  margin-top: 60px;
+}
+
+.PlayerList h3 {
+  color: #1a4297;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.PlayerList > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .PlayerList {
+    margin-top: 30px;
+  }
+}

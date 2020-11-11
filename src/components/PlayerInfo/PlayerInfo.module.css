@@ -1,0 +1,260 @@
+.PlayerInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 78%;
+  background-image: url(../../images/celebration.jfif);
+  background-position: center;
+  padding: 50px;
+  position: relative;
+  z-index: 0;
+}
+
+.staffInfo {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/celebration.jfif);
+  background-position: center;
+  padding: 50px;
+  position: relative;
+  z-index: 0;
+}
+
+.staffInfo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    rgba(223, 227, 232, 0.93) 90%,
+    rgba(223, 227, 232, 1)
+  );
+  z-index: -1;
+}
+
+.staffInfo > div > img {
+  float: left;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(52, 69, 90, 0.3);
+  margin-right: 20px;
+}
+
+.staffInfo > div > div p {
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+.top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    rgba(223, 227, 232, 0.93) 90%,
+    rgba(223, 227, 232, 1)
+  );
+  z-index: -1;
+}
+
+.left,
+.right,
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.left,
+.right {
+  min-width: 30%;
+  max-width: 30%;
+}
+
+.center {
+  width: 40%;
+}
+
+.center img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(52, 69, 90, 0.3);
+}
+
+.left > img {
+  width: 30px;
+}
+
+.left figure {
+  font-size: 40px;
+  font-family: "Roboto condensed", sans-serif;
+  color: #cc0101;
+  margin-bottom: 20px;
+}
+
+.left h4 {
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+.left p {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.right h6 {
+  color: #0d213a;
+  font-weight: 700;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.right p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.bottom {
+  height: 22%;
+  border-top: 1px solid #ccc;
+  margin: 0 150px;
+  display: flex;
+  /* width: 100%; */
+}
+
+.bottom > div {
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.bottom > div:not(:last-of-type) {
+  border-right: 1px solid #ccc;
+}
+
+.bottom > div img {
+  width: 90px;
+}
+
+.bottom > div h6 {
+  color: #333;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.bottom > div p {
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.bottom > div li {
+  font-size: 10px;
+  margin-bottom: 4px;
+  text-align: center;
+  border-top: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .PlayerInfo {
+    overflow-y: scroll;
+  }
+
+  .top {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .center {
+    order: 0;
+    width: 90%;
+    height: 200px;
+  }
+
+  .left,
+  .right {
+    order: 1;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .left > img {
+    width: 24px;
+  }
+
+  .left figure {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .left h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .right {
+    margin-top: 20px;
+  }
+
+  .right h6 {
+    margin-bottom: 10px;
+  }
+
+  .bottom {
+    order: 2;
+    flex-wrap: wrap;
+    margin: 15px 0;
+  }
+
+  .bottom > div {
+    max-width: 50%;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  }
+
+  .staffInfo {
+    padding: 15px;
+  }
+
+  .staffInfo > div {
+    overflow-y: scroll;
+    height: 100%;
+  }
+
+  .staffInfo > div > img {
+    margin: 20px;
+    margin-top: 0;
+  }
+}

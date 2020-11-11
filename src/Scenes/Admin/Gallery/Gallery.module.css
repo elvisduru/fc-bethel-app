@@ -1,0 +1,129 @@
+.Gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+}
+
+.controls button {
+  padding: 4px 15px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.controls button:first-child {
+  background-color: #4bc0c0;
+}
+
+.controls button:last-child {
+  background-color: #ef193c;
+}
+
+.uploadForm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.uploadForm .content {
+  position: relative;
+  z-index: 2;
+  background: white;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.content .header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .header p {
+  cursor: pointer;
+}
+
+.content .formgroup {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .formgroup h2 {
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+.content .footer {
+  padding: 15px;
+}
+
+.content .footer button {
+  padding: 8px 24px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.content .footer button:hover {
+  box-shadow: rgba(158, 158, 158, 0.2) 0px -10rem 0px inset;
+}
+
+.content .footer button:last-child {
+  margin-left: 8px;
+  background-color: #4bc0c0;
+  color: white;
+}
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4bc0c0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+
+.alert p:last-child {
+  cursor: pointer;
+}
+
+.files {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 80vh;
+  overflow-y: scroll;
+}

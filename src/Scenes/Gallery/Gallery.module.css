@@ -1,0 +1,23 @@
+.Gallery > main {
+  margin-top: 180px;
+  padding: 0 100px;
+}
+
+.Gallery h2 {
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.Gallery :global(.react-photo-gallery--gallery) > div img {
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 768px) {
+  .Gallery > main {
+    padding: 0 20px;
+    flex-direction: column;
+    margin-top: 140px;
+  }
+}

@@ -1,0 +1,40 @@
+.NewsCard {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 0 12px;
+  margin-top: 30px;
+}
+
+.cardImg {
+  width: 100%;
+  height: 150px;
+}
+
+.cardImg img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+
+.cardBody {
+  color: #000000;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  background-color: white;
+  padding: 15px;
+}
+
+.cardBody > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.cardBody > p {
+  margin-bottom: 8px;
+}

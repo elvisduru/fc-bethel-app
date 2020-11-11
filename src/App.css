@@ -1,0 +1,18 @@
+.fullscreen {
+  position: relative;
+  z-index: 110;
+}
+
+.image-slides .slick-slide img {
+  object-fit: contain;
+  object-position: center;
+  height: 120px;
+  margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+  .image-slides .slick-slide img {
+    margin: 0;
+    height: 80px;
+  }
+}

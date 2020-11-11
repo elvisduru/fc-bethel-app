@@ -1,0 +1,33 @@
+.Testimonials {
+  display: flex;
+  flex-direction: column;
+}
+
+.SliderWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.SliderWrapper > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Bottom {
+  align-self: flex-end;
+  margin-right: 200px;
+}
+
+.Bottom button {
+  background-color: transparent;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .Bottom {
+    margin-right: 10px;
+  }
+}
