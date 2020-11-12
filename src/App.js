@@ -711,7 +711,7 @@ class App extends Component {
           {
             name: "Okechukwu Nwanna",
             image:
-              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605004971251samuel2.jpg",
+              "https://fc-bethel-api.herokuapp.com/uploads/gallery/1605005268612nwanna2.jpg",
             number: 1,
             dob: "01.10.2000",
             age: 9,
