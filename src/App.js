@@ -113,37 +113,38 @@ class App extends Component {
             ),
           },
           {
-            name: "Udoh Andy Benedict",
+            name: "ADEBUNMI BABAJIDE RILIWAN",
             position: null,
             image: udoh,
-            bio: (
-              <div>
-                <p>
-                  Udoh, a native of Nsit Ubium in Akwa Ibom State, Nigeria. A
-                  graduate of the National Institute for Sports (Advance
-                  Certificate in Coaching, Football) who has 9 years’ experience
-                  as a player in grassroots football, he started his career with
-                  Lucky Babes football club in 2001 to 2003; then moved to FC
-                  Bethel International where I played from 2003 to 2008, before
-                  joining Dowa FC Benin Republic from 2009 to 2010.
-                </p>
-                <p>
-                  Started his Coaching Career with Yaba Queens FC Lagos in 2010
-                  winning so many Laurels for the Club with Six years of stay.
-                  Some of the honors include but not limited to: Edwin Collins
-                  Women Football Championship winner, Oduduwa Cup Women
-                  Championship in Ibadan and the best coach of the championship,
-                  2nd Eko Football Championship, 2nd Lagos State Female Football
-                  Challenge Cup, Winner Lagos State Female Football Challenge
-                  Cup, Winner Amateur Female Football League etc to mention a
-                  few.
-                </p>
-                <p>
-                  Currently with FC Bethel International was the winner Redeemed
-                  Football Challenge Cup and winner DOXA Sports Championship.
-                </p>
-              </div>
-            ),
+            bio: <div></div>,
+            // bio: (
+            //   <div>
+            //     <p>
+            //       Udoh, a native of Nsit Ubium in Akwa Ibom State, Nigeria. A
+            //       graduate of the National Institute for Sports (Advance
+            //       Certificate in Coaching, Football) who has 9 years’ experience
+            //       as a player in grassroots football, he started his career with
+            //       Lucky Babes football club in 2001 to 2003; then moved to FC
+            //       Bethel International where I played from 2003 to 2008, before
+            //       joining Dowa FC Benin Republic from 2009 to 2010.
+            //     </p>
+            //     <p>
+            //       Started his Coaching Career with Yaba Queens FC Lagos in 2010
+            //       winning so many Laurels for the Club with Six years of stay.
+            //       Some of the honors include but not limited to: Edwin Collins
+            //       Women Football Championship winner, Oduduwa Cup Women
+            //       Championship in Ibadan and the best coach of the championship,
+            //       2nd Eko Football Championship, 2nd Lagos State Female Football
+            //       Challenge Cup, Winner Lagos State Female Football Challenge
+            //       Cup, Winner Amateur Female Football League etc to mention a
+            //       few.
+            //     </p>
+            //     <p>
+            //       Currently with FC Bethel International was the winner Redeemed
+            //       Football Challenge Cup and winner DOXA Sports Championship.
+            //     </p>
+            //   </div>
+            // ),
           },
           {
             name: "Ogee Austin",
