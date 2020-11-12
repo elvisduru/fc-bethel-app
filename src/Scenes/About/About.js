@@ -14,24 +14,20 @@ export const About = () => {
         <div className={styles.left}>
           <Fade bottom duration={800}>
             <p>
-              FC Bethel International have worked hard to earn a reputation,
-              both nationally and internationally, as one of Nigeria’s best
-              known and developing football academy.
+              At FC Bethel International we have a culture of hard work which
+              has earned us our reputation, both locally and internationally as
+              one of Nigeria’s foremost developing football academies.
             </p>
             <p>
-              The club has and will continue to discover, nurture and designate
-              young talented players to professional clubs under FIFA
-              jurisdictions. On the field, the club has a long history of
-              success both within Nigeria, Africa and Europe at large. With
-              players such as Abayomi Emmanuel Adebayo, Godwin Emmanuel just to
-              mention a few now plying their football trade in the Nigerian
-              Premier League top flight.
+              The Academy has and will continue to discover, nurture, designate
+              young talents while playing a pivotal role in their growth while
+              at some stage in their development, by mutual consent, youngsters
+              would be designated to professional clubs under FIFA jurisdictions
+              to join meaningful projects across the globe.
               <br />
               <br />
-              Also, we have some players from FC Bethel International Football
-              Academy who have broken into first team selection in Europe such
-              as Dinopeter Jude Airaodion who just finished his season with Turk
-              Ocagi Limasol in Cyprus.
+              On the pitch, we have a long history of developing successful
+              talents within Nigeria, Africa and Europe at large.
             </p>
             <a
               className={styles.link}
