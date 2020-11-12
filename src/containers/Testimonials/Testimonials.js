@@ -12,17 +12,17 @@ export default class Testimonials extends Component {
       {
         text:
           "Life at the Academy placed me outside my comfort zone. I learned more about myself all the time and how I respond to certain situation. I couldn’t imagine doing anything better than training and playing football every day. It has been awesome.",
-        name: "Emmanuel Bature",
+        name: "Ibrahim Bature",
       },
       {
         text:
           "Life at the Academy placed me outside my comfort zone. I learned more about myself all the time and how I respond to certain situation. I couldn’t imagine doing anything better than training and playing football every day. It has been awesome.",
-        name: "Emmanuel Bature",
+        name: "Ibrahim Bature",
       },
       {
         text:
           "Life at the Academy placed me outside my comfort zone. I learned more about myself all the time and how I respond to certain situation. I couldn’t imagine doing anything better than training and playing football every day. It has been awesome.",
-        name: "Emmanuel Bature",
+        name: "Ibrahim Bature",
       },
     ],
   };

@@ -30,39 +30,56 @@ class App extends Component {
             bio: (
               <div>
                 <p>
-                  As Coach of FC Bethel International endowed with the special
-                  ability of motivating others towards achieving a collective
-                  goal as a team has helped inched his Coaching Career. He
-                  started his coaching career in 2003, after playing active
-                  football for 17 years from 1985 to 2002. He started Club
-                  football as a player with Guinness FC, to Central bank of
-                  Nigeria FC, Water Corporation FC, Sunshine FC Akure (where I
-                  was the Assistant Captain) all the way down to Kelsha FC
-                  (division One) Singapore where I retired as a player.
+                  Nathaniel is Head Coach of FC Bethel International endowed
+                  with the special ability of motivating others towards
+                  achieving a collective goal. He started his coaching career in
+                  2003, after playing active football for 17 years from 1985 to
+                  2002. He started Club football as a player with Guinness FC,
+                  and from there to Central bank of Nigeria FC, Water
+                  Corporation FC, Sunshine FC Akure (where he was the Assistant
+                  Captain) all the way down to Kelsha FC (division One)
+                  Singapore where he retired as a player. His Coaching
+                  experience with FC Bethel International and Apapa Golden Stars
+                  accounts for a total of sixteen years and has attracted lots
+                  of honors from the Championship winner while bagging the
+                  Silver medal, Bronze and Fourth placed respectively in same
+                  competition.
                 </p>
-                <p>
-                  His Coaching experience with FC Bethel International and Apapa
-                  Golden Stars for sixteen years has attracted lots of honors
-                  from Championship winner to Silver medal, Bronze and Fourth
-                  placed. This include; Champion (8th Team) International
-                  Invitation Tournament in Lagos with FC Bethel, Champion Lagos
-                  State Extra Joss Tournament with Apapa Golden Stars, Winner
-                  RCCG Football Challenge Cup, Winner Doxa Sport Championship,
-                  First Runner Up (Silver) TREM Cup (Bishop Mike Okonkwo)
-                  Championship, Runners Up Surulere Regional Abridge League,
-                  Third Place (Bronze) Lagos State Speakers Club with Apapa
-                  Golden Stars, TIDA 2012 Abidjan Cote de Voir International
-                  Tournament with Apapa Golden Stars- Bronze medal and Lagos
-                  Metro League third Position with Apapa Golden Stars to mention
-                  a few.
-                </p>
+                <p>Competitions includes;</p>
+                <ul>
+                  <li>
+                    Champion (8th Team) International Invitation Tournament in
+                    Lagos with FC Bethel
+                  </li>
+                  <li>
+                    Champion Lagos State Extra Joss Tournament with Apapa Golden
+                    Stars
+                  </li>
+                  <li>Winner RCCG Football Challenge Cup</li>
+                  <li>Winner Doxa Sport Championship</li>
+                  <li>
+                    First Runner Up (Silver) TREM Cup (Bishop Mike Okonkwo)
+                    Championship
+                  </li>
+                  <li>Runners Up Surulere Regional Abridge League</li>
+                  <li>
+                    Third Place (Bronze) Lagos State Speakers Club with Apapa
+                    Golden Stars
+                  </li>
+                  <li>
+                    TIDA 2012 Abidjan Cote de Voir International Tournament with
+                    Apapa Golden Stars- Bronze medal and Lagos Metro League
+                    third Position with Apapa Golden Stars to mention a few.
+                  </li>
+                </ul>
                 <p>
                   His Coaching Career is buffered with the following
                   Certificates: International Ambassadors in Sports Certificate,
                   International DFB Coaching Course UEFA B Certificate (Germany)
                   and FCAAN Course (Football Coaches Association of Africa
-                  Nations). Current member Lagos State Coaches Association and
-                  Member FCAAN Football Coaches Association of Africa Nations.
+                  Nations). He is a Current member Lagos State Coaches
+                  Association and Member FCAAN Football Coaches Association of
+                  Africa Nations.
                 </p>
               </div>
             ),

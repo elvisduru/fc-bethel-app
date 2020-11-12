@@ -5,7 +5,7 @@ import { Fade, Zoom } from "react-reveal";
 
 import ballImg from "../../images/ball.jpg";
 
-// import arrowRight from "../../images/arrow-right.svg";
+import arrowRight from "../../images/arrow-right.svg";
 
 export const About = () => {
   return (
@@ -33,7 +33,13 @@ export const About = () => {
               as Dinopeter Jude Airaodion who just finished his season with Turk
               Ocagi Limasol in Cyprus.
             </p>
-            {/* <a className={styles.link} href="/news/About-FC-Bethel-International2020-03-17-16:54:57">read more<img src={arrowRight} alt="" /></a> */}
+            <a
+              className={styles.link}
+              href="/news/Our-Success-Story2020-11-12-18:29:20"
+            >
+              read more
+              <img src={arrowRight} alt="" />
+            </a>
           </Fade>
         </div>
         <div className={styles.right}>

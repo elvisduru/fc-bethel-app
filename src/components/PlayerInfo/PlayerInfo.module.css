@@ -184,6 +184,17 @@
   border-top: 1px dotted rgba(0, 0, 0, 0.1);
 }
 
+.staffInfo ul {
+  list-style: circle;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.staffInfo ul > li {
+  margin-bottom: 7px;
+  line-height: 22px;
+}
+
 @media (max-width: 768px) {
   .PlayerInfo {
     overflow-y: scroll;
@@ -246,6 +257,8 @@
 
   .staffInfo {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
   }
 
   .staffInfo > div {
