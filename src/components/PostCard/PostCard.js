@@ -38,7 +38,9 @@ export const PostCard = ({
           </div>
         </Link>
       ) : (
-        <Link to={`/news/${url}`}></Link>
+        <Link to={`/news/${url}`}>
+          <span style={{ textDecoration: "underline" }}>Read news</span>
+        </Link>
       )}
       <div>
         <img
