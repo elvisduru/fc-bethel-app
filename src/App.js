@@ -93,20 +93,20 @@ class App extends Component {
               <div>
                 <p>
                   Seyi is a FIIFA/NFF LICENSED INTERMIDIARY licensed coach who
-                  is passionate about the development of your football players.
+                  is passionate about the development of young football players.
                 </p>
                 <p>
-                  He possess a B.A. History and International Relations from the
-                  Lagos State University (LASU). French Certificate in DELF A2
-                  ALLIANCE FRANCAISE.
+                  He holds a B.A. in History and International Relations from
+                  the Lagos State University (LASU) and a French Certificate in
+                  DELF A2 ALLIANCE FRANCAISE.
                 </p>
                 <p>
-                  In 2002, he was inivited by the Super Eagles for Korean/Japan
+                  In 2002, he was invited by the Super Eagles for Korean/Japan
                   World Cup 2002.
                 </p>
                 <p>
                   As a player, he formally played for Nigerian Ports Authority
-                  Nigeria 1994-1997, JCB FC - (Burkina Faso1998-2001) Stella
+                  Nigeria 1994- 1997, JCB FC - (Burkina Faso1998-2001) Stella
                   Club (CoteD'ivoire 1997).
                 </p>
               </div>
@@ -153,29 +153,33 @@ class App extends Component {
             bio: (
               <div>
                 <p>
-                  Austin currently works as the Business Manager for FC Bethel
-                  Academy, under his purview he manages, day to day operations
-                  of the academy and is also responsible for the rebranding,
-                  digital transformation amongst other things. He brings in over
-                  9 years of work experience across several e-businesses he has
-                  worked with in core managerial positions. He was responsible
-                  for Strategy, Operations, business development at some point
-                  as well as Sales/Marketing for Oya.com.ng before being
-                  elevated by the Executive Management of Wakanow to lead the
-                  firm (OYA) as the Acting Chief Operations Officer where he
-                  worked for 3 years, 11months.
+                  Austin holds a BSc degree in Accounting from the prestigious
+                  University of Nigeria, Nsukka (UNN), as well as a professional
+                  certification in Strategic Marketing with (o2 Academy) in
+                  Lagos, amongst other programs.
                 </p>
                 <p>
-                  Austin has also gained experience in marketing and promotions
-                  with a focus on working on Business Development and Strategic
-                  projects having worked different ecommerce firms from
-                  Vconnect.com to Rocket Internet where he managed revenue
-                  operations for over 6 Ventures (Kaymu, Jovago (now Jumia
-                  Travel), Hello food (now Jumia Food), Lamudi (now Jumia House)
-                  etc. He holds a BSc degree in Accounting from the prestigious
-                  University of Nigeria, Nsukka (UNN), as well as a professional
-                  certification in Strategic Marketing with o2Academy in Lagos,
-                  amongst other programs.
+                  He currently works as the Business Manager for FC Bethel
+                  Academy, under his purview he manages, day to day operations
+                  of the academy and is also responsible for the rebranding and
+                  digital transformation of the club amongst other things.
+                </p>
+                <p>
+                  He brings over 9 years of work experience across several
+                  e-businesses he has worked with in core managerial positions.
+                  He was responsible for Strategy, Operations, business
+                  development for Oya.com.ng before being elevated by the
+                  Executive Management of Wakanow to lead the firm (OYA) as the
+                  Acting Chief Operations Officer where he worked for 3 years,
+                  11months.
+                </p>
+                <p>
+                  His experience in marketing and promotions sterns from
+                  exposure in Business Development and Strategic projects while
+                  working with different ecommerce firms from Vconnect.com to
+                  Rocket Internet where he managed revenue operations for over 6
+                  such as Hello food (now Jumia Food), Jobago (now Jumia Travel)
+                  etc.
                 </p>
               </div>
             ),
